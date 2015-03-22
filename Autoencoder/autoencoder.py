@@ -1,14 +1,3 @@
-'''
-autoencoder.py - this is a base class for more specialized autoencoders such as sparse autoencoder or denoising autoencoders
-These individual autoencoders are implemented as a 3 layer network: input, hidden, output and can be stacked up to create a
-multilayered network.
-
-Author: Anantharaman Narayana Iyer
-Date: 26 April 2014
-
-This implementation uses the algorithm described in Andrew Ng's lecture notes.
-
-'''
 import numpy
 import math
 import time
